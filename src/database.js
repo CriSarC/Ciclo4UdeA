@@ -6,7 +6,7 @@ try {
      mongoose.connect(
       mongoAtlasUri,
       { useNewUrlParser: true, useUnifiedTopology: true },
-      () => console.log("Estamos conectadisimos a BD Mongo en Atlas a través de Mongoose")
+      () => console.log("Estamos conectadisimos a BD Mongo en Atlas a través de Mongoose!!!")
     );
 
   } catch (e) {
